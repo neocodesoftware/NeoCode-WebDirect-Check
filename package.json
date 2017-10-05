@@ -1,0 +1,17 @@
+{
+  "name": "hc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-launcher": "^0.8.0",
+    "chrome-remote-interface": "^0.25.1",
+    "nodemailer": "^4.1.2",
+    "puppeteer": "^0.11.0"
+  }
+}

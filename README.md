@@ -11,16 +11,16 @@ Must have [Google Chrome](https://www.google.ca/chrome/browser/features.html)
 Must have [Node JS](https://nodejs.org/en/)
 
 ## Setup
-Download / clone the repository.
+1. Download / clone the repository to c:\program files\webdchecker\
 
-1. Install Node and Chrome
+2. Install Node and Chrome
 
-2. Navigate to the repository from the command line.
+3. Navigate to the repository from the command line.
 
-3. Add Puppeteer to your directory with:
+4. Add Puppeteer to your directory with:
 node i Puppeteer
 
-4. Add Nodemailer to your directory with:
+5. Add Nodemailer to your directory with:
 node i Nodemailer
 
 ## Configure
@@ -31,3 +31,5 @@ Edit config.js
 
 ## Schedule
 Add the schedule in to task scheduler to run the index.js file from this directory with the frequency of your choice.
+1. program "C:\Program Files\nodejs\node.exe"
+2. parameters "C:\program files\webdchecker\index.js"

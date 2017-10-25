@@ -12,15 +12,22 @@ Must have [Node JS](https://nodejs.org/en/)
 
 ## Setup
 Download / clone the repository.
-Install Node and/or Chrome if you don't have them.
 
-Navigate to the repository from the command line.
+1. Install Node and Chrome
 
-Add Puppeteer to your directory with:
+2. Navigate to the repository from the command line.
+
+3. Add Puppeteer to your directory with:
 node i Puppeteer
 
-Add Nodemailer to your directory with:
+4. Add Nodemailer to your directory with:
 node i Nodemailer
 
-All the setup for your WebDirect sample page, email parameters and string to check against (normally Tasks for the Filemaker test Database) should be done through config.js.
-Add the schedule in your task scheduler to run the index.js file from this directory with the frequency of your choice.
+## Configure
+Edit config.js
+1. Set WebDirect sample page
+2. Set email parameters
+3. Set string to check against (normally Tasks for the Filemaker test Database) 
+
+## Schedule
+Add the schedule in to task scheduler to run the index.js file from this directory with the frequency of your choice.
